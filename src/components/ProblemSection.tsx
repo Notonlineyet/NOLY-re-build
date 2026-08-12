@@ -17,14 +17,16 @@ export function ProblemSection() {
 
         <Reveal delay={0.1} className="lg:order-2">
           <h2 className="max-w-lg text-3xl font-semibold tracking-tight text-text sm:text-4xl">
-            You&apos;re losing work and you don&apos;t even know it.
+            Your site&apos;s already live. It&apos;s just not working.
           </h2>
           <p className="mt-6 max-w-lg text-base leading-relaxed text-text-muted">
-            Most tradespeople rely on Facebook and word of mouth. That works
-            until someone calls while you&apos;re on a job and moves on to
-            the next name on the list. No website means you don&apos;t exist
-            on Google. No answer means the job goes elsewhere. It happens
-            dozens of times a year, and that&apos;s real money, gone.
+            Most tradespeople have a website already, it just sits there.
+            Word of mouth and Facebook carry the rest, until someone calls
+            while you&apos;re up a ladder and moves straight on to the next
+            name on the list. A site that doesn&apos;t rank means fewer
+            calls come in at all. A call that isn&apos;t answered means the
+            ones that do come in still walk. It happens dozens of times a
+            year, and that&apos;s real money, gone.
           </p>
         </Reveal>
       </div>

@@ -13,7 +13,7 @@ type Tier = {
 const TIERS: Tier[] = [
   {
     name: "Your Website",
-    tagline: "Get online and stay there.",
+    tagline: "A website that finally pulls its weight.",
     setup: "£499",
     monthly: "£35",
     features: [

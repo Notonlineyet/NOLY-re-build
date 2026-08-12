@@ -10,8 +10,9 @@ export function Hero() {
           Every missed call is a missed job.
         </h1>
         <p className="mt-6 max-w-md text-lg text-text-muted">
-          Simple websites that get you found on Google, plus an AI that
-          answers every call you miss.
+          We rebuild the website you&apos;ve already got so it actually
+          brings in work, and back it with an AI that answers every call
+          you&apos;d otherwise miss.
         </p>
         <div className="mt-9">
           <a

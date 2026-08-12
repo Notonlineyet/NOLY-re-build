@@ -9,7 +9,7 @@ export function FinalCta() {
             Stop losing jobs.
           </h2>
           <p className="mx-auto mt-4 max-w-sm text-base text-text-muted">
-            Get your website and AI agent live this week.
+            Get your rebuilt website and AI agent live this week.
           </p>
           <div className="mt-9">
             <a

@@ -5,7 +5,7 @@ import { NetworkPulse } from "./NetworkPulse";
 
 export function Hero() {
   return (
-    <section className="relative overflow-hidden lg:min-h-[calc(100dvh-4rem)]">
+    <section className="relative overflow-hidden">
       <NetworkPulse />
       <div
         aria-hidden
@@ -16,15 +16,21 @@ export function Hero() {
         className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_60%_50%_at_100%_100%,rgba(7,9,13,0.9),transparent_55%)]"
       />
 
-      <div className="relative mx-auto grid max-w-7xl gap-16 px-6 pt-16 pb-20 lg:grid-cols-[1.1fr_0.95fr] lg:items-center lg:gap-12 lg:px-8 lg:pt-20 lg:pb-24">
+      <div className="relative mx-auto grid max-w-7xl gap-16 px-6 pt-16 pb-10 lg:grid-cols-[1.1fr_0.95fr] lg:items-center lg:gap-12 lg:px-8 lg:pt-20 lg:pb-12">
         <FadeIn>
           <h1 className="max-w-xl text-4xl font-semibold tracking-tight text-text sm:text-5xl lg:text-6xl">
-            Every missed call is a missed job.
+            Are you the weakest link in your business?
           </h1>
           <p className="mt-6 max-w-md text-lg text-text-muted">
-            We rebuild the website you&apos;ve already got so it actually
-            brings in work, and back it with an AI that answers every call
-            you&apos;d otherwise miss.
+            It&apos;s not your prices. It&apos;s not your team.
+            It&apos;s the phone nobody answers.
+          </p>
+          <p className="mt-4 max-w-md text-xl font-semibold text-text">
+            Stop missing calls.
+          </p>
+          <p className="mt-4 max-w-md text-base text-text-muted">
+            We rebuild the website you&apos;ve already got and back it
+            with an AI that answers every call you&apos;d otherwise miss.
           </p>
           <div className="mt-9">
             <a

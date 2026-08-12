@@ -4,7 +4,7 @@ import { CallLucyCard } from "./CallLucyCard";
 export function TestLucySection() {
   return (
     <section className="border-t border-border bg-surface">
-      <div className="mx-auto grid max-w-7xl min-w-0 gap-12 px-6 py-20 lg:grid-cols-[1.05fr_0.95fr] lg:items-center lg:gap-16 lg:px-8 lg:py-28">
+      <div className="mx-auto grid max-w-7xl min-w-0 gap-12 px-6 pt-10 pb-20 lg:grid-cols-[1.05fr_0.95fr] lg:items-center lg:gap-16 lg:px-8 lg:pt-12 lg:pb-28">
         <Reveal className="lg:order-2">
           <h2 className="max-w-lg text-3xl font-semibold tracking-tight text-text sm:text-4xl">
             It rings. Nobody picks up.

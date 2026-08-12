@@ -75,7 +75,7 @@ export function Pricing() {
               <div
                 className={`flex h-full flex-col rounded-2xl border p-8 ${
                   tier.featured
-                    ? "border-accent/40 bg-surface-raised lg:-my-4 lg:py-12"
+                    ? "border-accent-strong/25 bg-glass shadow-[0_20px_60px_rgba(0,0,0,0.45)] backdrop-blur-xl lg:-my-4 lg:py-12"
                     : "border-border bg-surface"
                 }`}
               >

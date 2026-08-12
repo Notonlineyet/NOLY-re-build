@@ -61,7 +61,7 @@ export function MissedCallCalculator() {
   }, [missedCallsPerWeek, avgJobValue, closeRate]);
 
   return (
-    <div className="rounded-2xl border border-border bg-surface p-6 sm:p-8">
+    <div className="rounded-2xl border border-glass-border bg-glass p-6 shadow-[0_20px_60px_rgba(0,0,0,0.45)] backdrop-blur-xl sm:p-8">
       <div className="mb-6">
         <h3 className="text-base font-semibold text-text">
           Missed call calculator
@@ -101,11 +101,11 @@ export function MissedCallCalculator() {
         />
       </div>
 
-      <div className="mt-8 rounded-xl border border-accent/25 bg-accent/10 p-5">
+      <div className="mt-8 rounded-xl border border-accent-strong/20 bg-gradient-to-br from-accent/15 to-accent-strong/5 p-5">
         <p className="text-xs text-text-muted">
           Estimated annual lost revenue
         </p>
-        <p className="mt-1 font-mono text-4xl font-semibold tracking-tight text-text">
+        <p className="mt-1 font-mono text-4xl font-semibold tracking-tight text-accent-strong">
           {formatGBP(annualLostRevenue)}
         </p>
         <p className="mt-2 text-xs text-text-faint">

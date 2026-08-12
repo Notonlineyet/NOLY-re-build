@@ -12,30 +12,18 @@ type Tier = {
 
 const TIERS: Tier[] = [
   {
-    name: "Your Website",
-    tagline: "A website that finally pulls its weight.",
-    setup: "£499",
-    monthly: "£35",
-    features: [
-      "Website built for your trade",
-      "Live within 3 to 5 days",
-      "Your own personal URL included",
-      "Hosting, management and technical support",
-      "We keep it running, you focus on the work",
-    ],
-  },
-  {
     name: "Website + AI Receptionist",
     tagline: "Get found and never miss a job.",
     setup: "£599",
     monthly: "£114",
     featured: true,
     features: [
-      "Everything in Your Website",
+      "Website rebuilt for your trade",
+      "Live within 3 to 5 days",
       "AI agent answers every call, 24/7",
       "Handles enquiries and qualifies leads",
       "Books jobs straight into your calendar",
-      "Complete hands-off solution",
+      "Hosting, management and support included",
     ],
   },
   {
@@ -44,14 +32,12 @@ const TIERS: Tier[] = [
     setup: "£700",
     monthly: "£250",
     features: [
-      "Professional website",
-      "AI chatbot integration",
-      "WhatsApp Business setup",
-      "Online calendar booking",
-      "Google reviews system",
+      "Everything in Website + AI Receptionist",
+      "WhatsApp Business integration",
+      "Google reviews automation",
       "Unified chat dashboard",
       "SEO and local search",
-      "Ongoing support",
+      "Priority ongoing support",
     ],
   },
 ];
@@ -69,7 +55,7 @@ export function Pricing() {
           </p>
         </Reveal>
 
-        <div className="mt-14 grid gap-6 lg:grid-cols-3 lg:items-start">
+        <div className="mt-14 grid gap-6 lg:mx-auto lg:max-w-3xl lg:grid-cols-2 lg:items-start">
           {TIERS.map((tier, index) => (
             <Reveal key={tier.name} delay={index * 0.08}>
               <div

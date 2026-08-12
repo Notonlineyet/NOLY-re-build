@@ -25,9 +25,12 @@ Tradespeople are hands-on and unavailable to answer the phone during jobs — a 
 ## Capabilities and Constraints
 
 - Multi-trade positioning: general tradesperson audience, not gated to one trade like the Astro build's Plumber-only launch scope.
-- Hero and ProblemSection copy reconciled to rebuild-only positioning on 2026-08-12 (no more "get you found on Google" / "no website means you don't exist" framing). The "Your Website" pricing tier (£499, no AI) is kept as a legitimate rebuild-only-no-AI option, not a from-scratch-build tier — its tagline was adjusted accordingly; the setup/monthly figures themselves were left untouched as real commercial content.
+- Hero and ProblemSection copy reconciled to rebuild-only positioning on 2026-08-12 (no more "get you found on Google" / "no website means you don't exist" framing).
+- Pricing simplified to two tiers on 2026-08-12: the website-only "Your Website" tier (£499/£35, no AI) was removed at the user's direction since it undercut the AI-inclusive positioning ("just a website" isn't the offer). Its website-build value folded into the base "Website + AI Receptionist" tier (£599/£114) instead, which is now the entry point; "The Complete Package" (£700/£250) remains the upsell.
 - Visual direction: a bolder, distinctive "hand-painted shopfront signage" redesign (deep green ground, gold accent, Bevan/Archivo type) was built and reviewed on 2026-08-12, then explicitly rejected by the user in favor of the incumbent near-black/blue-accent look. Do not re-propose that direction; the incumbent SaaS-dark visual system is the confirmed standing preference.
 - Legal pages exist (Privacy, Terms) but are scaffolded/placeholder-level, not reviewed.
+- ProblemSection was replaced by TestLucySection on 2026-08-12: the diagnosis copy ("It rings. Nobody picks up.") now sits alongside a real, working Lucy demo — the same GoHighLevel voice-chat widget (widget ID `6a79aa9de427c78bb5bcaca5`) embedded on the sibling Astro build, answering as the fictional "ABC Plumbing, Watford." Pressing the phone genuinely places a voice call, not a mockup. The old Astro build's "Step 1 — Pick your trade" was deliberately dropped here (kept to Meet Lucy / Test Lucy / Book a call) since this build is confirmed multi-trade, not plumber-gated.
+- The placeholder stock photo in the old ProblemSection is gone (removed along with that component) — no outstanding placeholder-photo evidence gap on the homepage now.
 
 ## Brand Commitments
 
@@ -37,7 +40,7 @@ Tradespeople are hands-on and unavailable to answer the phone during jobs — a 
 
 ## Evidence on Hand
 
-Pre-launch: no real testimonials, case studies, or results exist yet. ProblemSection currently uses a placeholder stock photo (picsum.photos seed image) standing in for real tradesperson photography. Future work must not fabricate testimonials, customer counts, results, or replace the placeholder photo with anything but real material.
+Pre-launch: no real testimonials, case studies, or results exist yet. The live Lucy voice-agent demo (see Capabilities) is real evidence, not a mockup — it's the one piece of the page that isn't a placeholder. Future work must not fabricate testimonials, customer counts, or results.
 
 ## Product Principles
 

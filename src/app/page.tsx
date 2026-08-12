@@ -1,6 +1,6 @@
 import { Nav } from "@/components/Nav";
 import { Hero } from "@/components/Hero";
-import { ProblemSection } from "@/components/ProblemSection";
+import { TestLucySection } from "@/components/TestLucySection";
 import { Pricing } from "@/components/Pricing";
 import { Process } from "@/components/Process";
 import { Founder } from "@/components/Founder";
@@ -13,7 +13,7 @@ export default function Home() {
       <Nav />
       <main className="flex flex-1 flex-col">
         <Hero />
-        <ProblemSection />
+        <TestLucySection />
         <Pricing />
         <Process />
         <Founder />

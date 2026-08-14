@@ -8,10 +8,10 @@ import { List, X } from "@phosphor-icons/react";
 const CTA_LABEL = "Get Started";
 
 const LINKS = [
-  { href: "#how-it-works", label: "How It Works" },
-  { href: "#pricing", label: "Pricing" },
-  { href: "#process", label: "Process" },
-  { href: "#contact", label: "Contact" },
+  { href: "/#how-it-works", label: "How It Works" },
+  { href: "/#pricing", label: "Pricing" },
+  { href: "/#process", label: "Process" },
+  { href: "/contact", label: "Contact" },
 ];
 
 export function Nav() {
@@ -49,7 +49,7 @@ export function Nav() {
 
         <div className="flex items-center gap-2">
           <a
-            href="#contact"
+            href="/contact"
             className="rounded-full bg-accent px-5 py-2.5 text-sm font-semibold text-accent-text transition-transform duration-200 hover:-translate-y-0.5 active:scale-[0.98]"
           >
             {CTA_LABEL}

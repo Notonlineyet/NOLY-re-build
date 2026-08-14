@@ -107,7 +107,7 @@ export function Pricing() {
                 </ul>
 
                 <a
-                  href="#contact"
+                  href="/contact"
                   className={`mt-8 inline-flex items-center justify-center rounded-full px-6 py-3 text-sm font-semibold transition-transform duration-200 hover:-translate-y-0.5 active:scale-[0.98] ${
                     tier.featured
                       ? "bg-accent text-accent-text"

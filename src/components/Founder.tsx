@@ -8,7 +8,7 @@ export function Founder() {
       <div className="mx-auto max-w-4xl px-6 py-20 lg:px-8 lg:py-28">
         <Reveal>
           <p className="text-2xl font-medium leading-snug tracking-tight text-text sm:text-3xl">
-            &ldquo;Thousands of brilliant tradespeople have a website —
+            &ldquo;Thousands of brilliant tradespeople have a website,
             it just doesn&apos;t do anything. They&apos;re losing jobs
             every single day to a missed call, not because the site&apos;s
             missing, but because it&apos;s just sitting there.&rdquo;

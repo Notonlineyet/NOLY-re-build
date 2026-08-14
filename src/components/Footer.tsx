@@ -4,9 +4,9 @@ import { EnvelopeSimple, MapPin, Phone } from "@phosphor-icons/react/ssr";
 
 const QUICK_LINKS = [
   { href: "/", label: "Home" },
-  { href: "#pricing", label: "Pricing" },
-  { href: "#process", label: "Process" },
-  { href: "#contact", label: "Contact" },
+  { href: "/#pricing", label: "Pricing" },
+  { href: "/#process", label: "Process" },
+  { href: "/contact", label: "Contact" },
   { href: "/privacy", label: "Privacy Policy" },
   { href: "/terms", label: "Terms" },
 ];

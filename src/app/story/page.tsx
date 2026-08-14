@@ -44,14 +44,14 @@ export default function StoryPage() {
                 the same way anymore.
               </p>
               <p>
-                So I left. Packed up, took Len — my dog and unofficial
-                business partner — and started moving. Since then
+                So I left. Packed up, took Len, my dog and unofficial
+                business partner, and started moving. Since then
                 I&apos;ve been working remotely from wherever we end up,
                 building websites and learning everything I can about AI.
               </p>
               <p>
                 What I found along the way was a gap. Thousands of
-                brilliant tradespeople across the UK have a website — it
+                brilliant tradespeople across the UK have a website, it
                 just doesn&apos;t do anything. No AI, no automation,
                 nobody answering the phone when they&apos;re up a ladder.
                 Losing jobs every single day to a missed call, not
@@ -83,7 +83,7 @@ export default function StoryPage() {
                 Get in touch and let&apos;s get you online.
               </p>
               <a
-                href="/#contact"
+                href="/contact"
                 className="mt-8 inline-flex items-center justify-center rounded-full bg-accent px-7 py-3.5 text-sm font-semibold text-accent-text shadow-[0_0_0_1px_rgba(125,211,252,0.25),0_8px_24px_rgba(91,157,240,0.35)] transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[0_0_0_1px_rgba(125,211,252,0.4),0_10px_30px_rgba(91,157,240,0.45)] active:scale-[0.98]"
               >
                 Let&apos;s get you online

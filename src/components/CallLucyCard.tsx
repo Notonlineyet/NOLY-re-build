@@ -3,7 +3,15 @@
 import { useEffect, useRef } from "react";
 import Script from "next/script";
 
-export function CallLucyCard() {
+const DEMO_WIDGET_ID = "6a79aa9de427c78bb5bcaca5";
+
+export function CallLucyCard({
+  widgetId = DEMO_WIDGET_ID,
+  label = "Lucy demo",
+}: {
+  widgetId?: string;
+  label?: string;
+}) {
   const containerRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -32,7 +40,7 @@ export function CallLucyCard() {
         <div
           ref={containerRef}
           role="group"
-          aria-label="Lucy demo"
+          aria-label={label}
           className="min-h-[220px] overflow-x-auto rounded-[1.4rem] bg-white p-1 pt-7"
         />
       </div>
@@ -40,7 +48,7 @@ export function CallLucyCard() {
       <Script
         src="https://widgets.leadconnectorhq.com/loader.js"
         data-resources-url="https://widgets.leadconnectorhq.com/chat-widget/loader.js"
-        data-widget-id="6a79aa9de427c78bb5bcaca5"
+        data-widget-id={widgetId}
         strategy="lazyOnload"
       />
     </div>

@@ -9,7 +9,7 @@ const ENQUIRY_WIDGET_ID = "6a7f08c932ce808db2dd579f";
 
 export const metadata: Metadata = {
   title: "Contact | Not On Line Yet",
-  description: "Talk to Lucy and get your website and AI agent booked in.",
+  description: "Talk to Jessica and get your website and AI agent booked in.",
 };
 
 export default function ContactPage() {
@@ -23,14 +23,14 @@ export default function ContactPage() {
               Let&apos;s get you online.
             </h1>
             <p className="mx-auto mt-4 max-w-md text-base text-text-muted">
-              Talk to Lucy, my AI receptionist, and she&apos;ll get you
+              Talk to Jessica, my AI receptionist, and she&apos;ll get you
               booked in for a call. No forms, no waiting on hold.
             </p>
 
             <div className="mt-10 -mx-8 sm:mx-auto sm:max-w-[380px]">
               <CallLucyCard
                 widgetId={ENQUIRY_WIDGET_ID}
-                label="Talk to Lucy"
+                label="Talk to Jessica"
               />
             </div>
           </Reveal>

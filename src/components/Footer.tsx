@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { EnvelopeSimple, MapPin, Phone } from "@phosphor-icons/react/ssr";
 
 const QUICK_LINKS = [
@@ -18,9 +19,18 @@ export function Footer() {
       <div className="mx-auto max-w-7xl px-6 py-16 lg:px-8">
         <div className="grid gap-12 sm:grid-cols-2">
           <div>
-            <p className="text-sm font-semibold text-text">
-              Not On Line Yet
-            </p>
+            <div className="flex items-center gap-2.5">
+              <Image
+                src="/logo.png"
+                alt="Not On Line Yet"
+                width={28}
+                height={28}
+                className="size-7"
+              />
+              <p className="text-sm font-semibold text-text">
+                Not On Line Yet
+              </p>
+            </div>
             <p className="mt-2 max-w-xs text-sm text-text-muted">
               Websites and AI answering for UK tradespeople.
             </p>

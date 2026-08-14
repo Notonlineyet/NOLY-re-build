@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { List, X } from "@phosphor-icons/react";
 
 const CTA_LABEL = "Get Started";
@@ -23,9 +24,14 @@ export function Nav() {
           href="/"
           className="flex items-center gap-2.5 text-[15px] font-semibold tracking-tight text-text"
         >
-          <span className="flex h-8 w-8 items-center justify-center rounded-full bg-accent text-[13px] font-bold text-accent-text">
-            NY
-          </span>
+          <Image
+            src="/logo.png"
+            alt="Not On Line Yet"
+            width={32}
+            height={32}
+            className="size-8"
+            priority
+          />
           <span className="hidden sm:inline">Not On Line Yet</span>
         </Link>
 

@@ -8,9 +8,10 @@ export function Founder() {
       <div className="mx-auto max-w-4xl px-6 py-20 lg:px-8 lg:py-28">
         <Reveal>
           <p className="text-2xl font-medium leading-snug tracking-tight text-text sm:text-3xl">
-            Your website is no longer just a business card. It&apos;s your
-            24/7 salesperson, your booking system, and how customers find
-            and trust you.
+            &ldquo;Thousands of brilliant tradespeople have a website —
+            it just doesn&apos;t do anything. They&apos;re losing jobs
+            every single day to a missed call, not because the site&apos;s
+            missing, but because it&apos;s just sitting there.&rdquo;
           </p>
 
           <div className="mt-8 flex flex-wrap items-center justify-between gap-6">

@@ -15,7 +15,7 @@ const TIERS: Tier[] = [
     name: "Website + AI Receptionist",
     tagline: "Get found and never miss a job.",
     setup: "£599",
-    monthly: "£114",
+    monthly: "£99",
     featured: true,
     features: [
       "Website rebuilt for your trade",
@@ -30,7 +30,7 @@ const TIERS: Tier[] = [
     name: "The Complete Package",
     tagline: "Everything you need, included.",
     setup: "£700",
-    monthly: "£250",
+    monthly: "£150",
     features: [
       "Everything in Website + AI Receptionist",
       "WhatsApp Business integration",
@@ -55,13 +55,13 @@ export function Pricing() {
           </p>
         </Reveal>
 
-        <div className="mt-14 grid gap-6 lg:mx-auto lg:max-w-3xl lg:grid-cols-2 lg:items-start">
+        <div className="mt-14 grid gap-6 lg:mx-auto lg:max-w-4xl lg:grid-cols-2">
           {TIERS.map((tier, index) => (
             <Reveal key={tier.name} delay={index * 0.08}>
               <div
                 className={`flex h-full flex-col rounded-2xl border p-8 ${
                   tier.featured
-                    ? "border-accent-strong/25 bg-glass shadow-[0_20px_60px_rgba(0,0,0,0.45)] backdrop-blur-xl lg:-my-4 lg:py-12"
+                    ? "border-accent-strong/25 bg-glass shadow-[0_20px_60px_rgba(0,0,0,0.45)] backdrop-blur-xl"
                     : "border-border bg-surface"
                 }`}
               >

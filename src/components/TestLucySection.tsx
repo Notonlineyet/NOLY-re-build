@@ -9,14 +9,24 @@ export function TestLucySection() {
           <h2 className="max-w-lg text-3xl font-semibold tracking-tight text-text sm:text-4xl">
             It rings. Nobody picks up.
           </h2>
-          <p className="mt-6 max-w-lg text-base leading-relaxed text-text-muted">
-            Most tradespeople already have a website — that was never the
-            problem. The problem is what it&apos;s doing for you: nothing.
-            It hangs there like a piece of art while calls go unanswered
-            and jobs walk. Lucy fixes that. Don&apos;t take our word for
-            it — call her right now and see what your customers would
-            experience instead.
-          </p>
+          <div className="mt-6 flex max-w-lg flex-col gap-4 text-base leading-relaxed text-text-muted">
+            <p>
+              Right now, somewhere, a customer is calling you. Their
+              boiler&apos;s dead, or the job&apos;s urgent, and they need
+              someone today.
+            </p>
+            <p>
+              They don&apos;t leave a voicemail — they hang up and dial
+              the next name on the list. No apology, no second chance, no
+              idea it even happened.
+            </p>
+            <p>
+              That&apos;s not a one-off. It happens every week, quietly,
+              and you never see the jobs you lost — only the ones that
+              got through.
+            </p>
+            <p className="text-xl font-semibold text-text">Meet Lucy.</p>
+          </div>
         </Reveal>
 
         <Reveal delay={0.1} className="min-w-0 lg:order-1">

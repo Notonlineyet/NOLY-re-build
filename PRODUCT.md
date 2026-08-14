@@ -26,7 +26,7 @@ Tradespeople are hands-on and unavailable to answer the phone during jobs — a 
 
 - Multi-trade positioning: general tradesperson audience, not gated to one trade like the Astro build's Plumber-only launch scope.
 - Hero and ProblemSection copy reconciled to rebuild-only positioning on 2026-08-12 (no more "get you found on Google" / "no website means you don't exist" framing).
-- Pricing simplified to two tiers on 2026-08-12: the website-only "Your Website" tier (£499/£35, no AI) was removed at the user's direction since it undercut the AI-inclusive positioning ("just a website" isn't the offer). Its website-build value folded into the base "Website + AI Receptionist" tier (£599/£114) instead, which is now the entry point; "The Complete Package" (£700/£250) remains the upsell.
+- Pricing simplified to two tiers on 2026-08-12: the website-only "Your Website" tier (£499/£35, no AI) was removed at the user's direction since it undercut the AI-inclusive positioning ("just a website" isn't the offer). Its website-build value folded into the base "Website + AI Receptionist" tier (£599 setup) instead, which is now the entry point; "The Complete Package" (£700 setup) remains the upsell. Monthly rates updated 2026-08-13: £99/month (was £114) and £150/month (was £250).
 - Visual direction: a bolder, distinctive "hand-painted shopfront signage" redesign (deep green ground, gold accent, Bevan/Archivo type) was built and reviewed on 2026-08-12, then explicitly rejected by the user in favor of the incumbent near-black/blue-accent look. Do not re-propose that direction; the incumbent SaaS-dark visual system is the confirmed standing preference.
 - Legal pages exist (Privacy, Terms) but are scaffolded/placeholder-level, not reviewed.
 - ProblemSection was replaced by TestLucySection on 2026-08-12: the diagnosis copy ("It rings. Nobody picks up.") now sits alongside a real, working Lucy demo — the same GoHighLevel voice-chat widget (widget ID `6a79aa9de427c78bb5bcaca5`) embedded on the sibling Astro build, answering as the fictional "ABC Plumbing, Watford." Pressing the phone genuinely places a voice call, not a mockup. The old Astro build's "Step 1 — Pick your trade" was deliberately dropped here (kept to Meet Lucy / Test Lucy / Book a call) since this build is confirmed multi-trade, not plumber-gated.
@@ -36,11 +36,13 @@ Tradespeople are hands-on and unavailable to answer the phone during jobs — a 
 
 - Business name: Not On Line Yet. Founder: Jules Wood, trading as Not On Line Yet, London N2, United Kingdom.
 - Contact: 07446 914731, jules@notonlineyet.co.uk. Same contact details as the sibling Astro build — same business.
-- Founder bio/story is intentionally not yet written (placeholder text in Founder.tsx and /story page). To be captured in a dedicated session, not invented here.
+- Real logo mark added 2026-08-13: a robot-mascot icon (`public/logo.png`), used in Nav, Footer, and as the browser tab icon (`src/app/icon.png`), replacing the placeholder "NY" text roundel. Its blue/dark palette happens to match this build's accent colors.
+- /story page populated 2026-08-14 with Jules's real bio, sourced verbatim from his existing live bio page (notonlineyet.co.uk/bio): the corporate-job-to-encephalitis-to-recovery story, Len (his dog), the gap he found in tradespeople's websites, and his solo-operator pitch ("No corporate markup. No agency fluff."). Real photo of Jules and Len at `public/jules-and-len.jpg`, sourced from the same live page (not stock/placeholder).
+- Founder.tsx's homepage teaser quote was replaced 2026-08-14 with a real line pulled from Jules's bio ("Thousands of brilliant tradespeople have a website — it just doesn't do anything...") instead of the generic marketing copy it had before. No more unattributed-quote gap on the homepage.
 
 ## Evidence on Hand
 
-Pre-launch: no real testimonials, case studies, or results exist yet. The live Lucy voice-agent demo (see Capabilities) is real evidence, not a mockup — it's the one piece of the page that isn't a placeholder. Future work must not fabricate testimonials, customer counts, or results.
+Pre-launch: no real testimonials, case studies, or results exist yet. The live Lucy voice-agent demo and the /story page (real bio + real photo of Jules and Len) are both genuine evidence, not mockups or stock material. Future work must not fabricate testimonials, customer counts, or results.
 
 ## Product Principles
 
